@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+	<channel>
+		<title>Kailas Dierk</title>
+		<link>https://kybernetikgames.github.io/kailas-dierk</link>
+		<description>Welcome to the personal blog of Kailas Dierk</description>
+		<copyright>2019</copyright>
+		<pubDate>Wed, 27 Mar 2019 11:30:33 GMT</pubDate>
+		<lastBuildDate>Wed, 27 Mar 2019 11:30:33 GMT</lastBuildDate>
+		<item>
+			<title>Hello World</title>
+			<link>https://kybernetikgames.github.io/kailas-dierk/posts/hello-world</link>
+			<description>&lt;p&gt;Recently while developing &lt;a href="../unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;</description>
+			<guid>https://kybernetikgames.github.io/kailas-dierk/posts/hello-world</guid>
+			<pubDate>Wed, 27 Mar 2019 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;Recently while developing &lt;a href="../unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://wyam.io/docs/usage/obtaining"&gt;Build it with Wyam&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pages.github.com/"&gt;Upload it to GitHub to host&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That's it. All for free.&lt;/p&gt;
+&lt;p&gt;Previously, I was using my empty Google+ page as my Unity Asset Store publisher website, but now that Google+ is about to be killed off it's time to make a proper portfolio, so I've built this blog with Wyam too.&lt;/p&gt;
+&lt;p&gt;I'm currently working on a large update to my &lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-lite-116516"&gt;Animancer&lt;/a&gt; plugin. Any feedback or suggestions for how I could improve things would be much appreciated. Just email me at &lt;a href="mailto:KybernetikGames&amp;#64;gmail.com"&gt;KybernetikGames&amp;#64;gmail.com&lt;/a&gt;.&lt;/p&gt;
+</content:encoded>
+		</item>
+	</channel>
+</rss>

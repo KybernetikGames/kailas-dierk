@@ -1,2 +1,1 @@
-# kailas-dierk
-Personal blog of Kailas Dierk
+# https://kybernetikgames.github.io/kailas-dierk/
