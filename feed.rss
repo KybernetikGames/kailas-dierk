@@ -5,15 +5,56 @@
 		<link>https://kybernetikgames.github.io/kailas-dierk</link>
 		<description>Welcome to the personal blog of Kailas Dierk</description>
 		<copyright>2019</copyright>
-		<pubDate>Wed, 27 Mar 2019 11:54:13 GMT</pubDate>
-		<lastBuildDate>Wed, 27 Mar 2019 11:54:13 GMT</lastBuildDate>
+		<pubDate>Tue, 28 May 2019 01:47:56 GMT</pubDate>
+		<lastBuildDate>Tue, 28 May 2019 01:47:56 GMT</lastBuildDate>
+		<item>
+			<title>Animancer v3.0</title>
+			<link>https://kybernetikgames.github.io/kailas-dierk/posts/animancer-v3-0</link>
+			<description>&lt;p&gt;&lt;strong&gt;Animancer&lt;/strong&gt; gives you the ability to play and control animations dynamically at runtime using simple scripts instead of manually configuring inflexible Animator Controllers that encourage &lt;a href="https://kybernetikgames.github.io/animancer/docs/introduction/mecanim-vs-animancer/why-replace-mecanim"&gt;bad programming practices&lt;/a&gt;.&lt;/p&gt;</description>
+			<guid>https://kybernetikgames.github.io/kailas-dierk/posts/animancer-v3-0</guid>
+			<pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;&lt;strong&gt;Animancer&lt;/strong&gt; gives you the ability to play and control animations dynamically at runtime using simple scripts instead of manually configuring inflexible Animator Controllers that encourage &lt;a href="https://kybernetikgames.github.io/animancer/docs/introduction/mecanim-vs-animancer/why-replace-mecanim"&gt;bad programming practices&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[&lt;a href="http://u3d.as/19Xb"&gt;Animancer Pro&lt;/a&gt;] [&lt;a href="http://u3d.as/19Xd"&gt;Animancer Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/566452/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:AnimancerUnityPlugin&amp;#64;gmail.com"&gt;AnimancerUnityPlugin&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Animancer v3.0 is a very large update which brings some notable improvements to the system:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Replaced the 3 rudimentary demos with 22 proper &lt;a href="https://kybernetikgames.github.io/animancer/docs/examples"&gt;Example Scenes&lt;/a&gt; that have highly detailed tutorial explanations.&lt;/li&gt;
+&lt;li&gt;Massively improved the documentation in general with lots of code examples and animated gifs.&lt;/li&gt;
+&lt;li&gt;Added &lt;a href="https://kybernetikgames.github.io/animancer/docs/manual/state-serializables"&gt;serializable classes&lt;/a&gt; which make it easy to group additional details with each &lt;code&gt;AnimationClip&lt;/code&gt; (such as &lt;code&gt;Speed&lt;/code&gt; and &lt;code&gt;Start Time&lt;/code&gt;) in the Inspector, as well as set up &lt;a href="https://kybernetikgames.github.io/animancer/docs/manual/blending/mixers"&gt;Mixer States&lt;/a&gt; and &lt;a href="https://kybernetikgames.github.io/animancer/docs/manual/animator-controllers"&gt;Controller States&lt;/a&gt; in the Inspector.&lt;/li&gt;
+&lt;li&gt;Improved &lt;a href="https://kybernetikgames.github.io/animancer/docs/source/performance-benchmarks"&gt;performance&lt;/a&gt;, especially in situations when lots of animations are inactive.&lt;/li&gt;
+&lt;li&gt;Added proper support for playing animations in Edit Mode. See the &lt;a href="https://kybernetikgames.github.io/animancer/docs/examples/fine-control/doors"&gt;Fine Control/Doors&lt;/a&gt; example for a demonstration.&lt;/li&gt;
+&lt;li&gt;The full list of changes is available in the &lt;a href="https://kybernetikgames.github.io/animancer/docs/changes/animancer-v3-0"&gt;Change Log&lt;/a&gt; along with a guide for upgrading from earlier versions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;I'd like to get your &lt;strong&gt;feedback&lt;/strong&gt; in two main areas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you see the store page and decide not to even try out the free version, can you tell me why? Obviously there's not much I can do about it if you're not currently using animations at all, but if you have other reasons I'd love to hear them. Is it unclear what the plugin actually does or what its advantages are? Do you disagree with any of the assertions I've made about the problems with Mecanim? Do you just not care enough about those problems to try something new? Does my programmer art make your eyes bleed?&lt;/li&gt;
+&lt;li&gt;If you do try it out and decide you don't like it, can you tell me why? Does it not do what you expected? Do you need features only available in the Pro version but are unwilling to spend that much money on something like this? Am I asking too many questions?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Please check it out and let me know in the &lt;a href="https://forum.unity.com/threads/566452/"&gt;Unity Forums&lt;/a&gt; or by email (&lt;a href="mailto:AnimancerUnityPlugin&amp;#64;gmail.com"&gt;AnimancerUnityPlugin&amp;#64;gmail.com&lt;/a&gt;) if you have any &lt;strong&gt;questions&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Next up I'm planning to work on an update for my &lt;a href="https://assetstore.unity.com/packages/tools/gui/ultevents-111307"&gt;UltEvents&lt;/a&gt; plugin. My rough plans are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set it up as regular scripts instead of compiling it as a DLL so it's easier to access and modify the source code.&lt;/li&gt;
+&lt;li&gt;Upgrade the documentation to a website like Animancer's.&lt;/li&gt;
+&lt;li&gt;Find a faster way to set up static methods. Maybe just allow them to be stored in a favourites list for easy access.&lt;/li&gt;
+&lt;li&gt;Make an &lt;code&gt;IUltEvent&lt;/code&gt; interface with only add and remove methods so that you can expose it without exposing the full event to allow anything to invoke or clear it. Similar to how the C# &lt;code&gt;event&lt;/code&gt; keyword works.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And a few crazy ideas I want to look at to see if they are feasible (not too much work and possible to implement without a notably negative impact on performance):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Events with return values.&lt;/li&gt;
+&lt;li&gt;Events that can be run in coroutines so they can yield.&lt;/li&gt;
+&lt;li&gt;Allow access to fields.&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+		</item>
 		<item>
 			<title>Hello World</title>
 			<link>https://kybernetikgames.github.io/kailas-dierk/posts/hello-world</link>
-			<description>&lt;p&gt;Recently while developing &lt;a href="../unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;</description>
+			<description>&lt;p&gt;Recently while developing &lt;a href="/kailas-dierk/unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;</description>
 			<guid>https://kybernetikgames.github.io/kailas-dierk/posts/hello-world</guid>
 			<pubDate>Wed, 27 Mar 2019 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;p&gt;Recently while developing &lt;a href="../unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;
+			<content:encoded>&lt;p&gt;Recently while developing &lt;a href="/kailas-dierk/unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://wyam.io/docs/usage/obtaining"&gt;Build it with Wyam&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pages.github.com/"&gt;Upload it to GitHub to host&lt;/a&gt;.&lt;/li&gt;
