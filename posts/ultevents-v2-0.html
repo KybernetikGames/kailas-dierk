@@ -6,7 +6,7 @@
 -->
 <html lang="en">
 	<head>
-		<title>Kailas Dierk - Archive</title>
+		<title>Kailas Dierk - UltEvents v2.0</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/kailas-dierk/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -25,9 +25,9 @@
 		<meta name="msapplication-tooltip" content="Kailas Dierk" />
 		<meta name="msapplication-starturl" content="/kailas-dierk/" />
 
-		<meta property="og:title" content="Kailas Dierk - Archive" /> 
+		<meta property="og:title" content="Kailas Dierk - UltEvents v2.0" /> 
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://kybernetikgames.github.io/kailas-dierk/posts" />
+		<meta property="og:url" content="https://kybernetikgames.github.io/kailas-dierk/posts/ultevents-v2-0" />
 		<!-- TODO: More social graph meta tags -->
         
 
@@ -39,9 +39,14 @@
 		<div id="wrapper">
 
 			<!-- Header -->
+
+    
 <header id="header">
-    <h1>Archive</h1>  
+    <h1>UltEvents v2.0</h1>
+    <hr/>     
+        <p><em>Published on Monday, 3 June 2019</em></p>
 </header>
+
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
@@ -59,33 +64,32 @@
 
 				<!-- Content -->
 					<section id="content" class="main">
-						 
- <div class="content">
-        <header class="major">
-            <h2>2019</h2>
-        </header>
+						
 
-        <div style="margin-bottom: 12px;">
-            <a href="/kailas-dierk/posts/ultevents-v2-0.html">
-                <div><strong>UltEvents v2.0</strong></div>
-            </a>
-            <div><em>Posted on Monday, 3 June 2019</em></div>            
-        </div>   
-        <div style="margin-bottom: 12px;">
-            <a href="/kailas-dierk/posts/animancer-v3-0.html">
-                <div><strong>Animancer v3.0</strong></div>
-            </a>
-            <div><em>Posted on Tuesday, 28 May 2019</em></div>            
-        </div>   
-        <div style="margin-bottom: 12px;">
-            <a href="/kailas-dierk/posts/hello-world.html">
-                <div><strong>Hello World</strong></div>
-            </a>
-            <div><em>Posted on Wednesday, 27 March 2019</em></div>            
-        </div>   
-    <ul class="actions">            
-            </ul>
-</div>
+<p>[<a href="http://u3d.as/15Zc">Download</a>] [<a href="https://kybernetikgames.github.io/ultevents/">Documentation</a>] [<a href="https://forum.unity.com/threads/687970/">Forum</a>] [<a href="mailto:KybernetikGames&#64;gmail.com?subject=UltEvents">KybernetikGames&#64;gmail.com</a>]</p>
+<p><strong>UltEvents</strong> allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt <a href="https://docs.unity3d.com/Manual/UnityEvents.html">UnityEvents</a>,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.</p>
+<p><a href="http://u3d.as/15Zc">Download it for <strong>free</strong></a> and check out the <a href="https://kybernetikgames.github.io/ultevents/docs">Documentation</a> to get started.</p>
+<hr />
+<p>Changes in v2.0:</p>
+<ul>
+<li>Moved everything out of the precompiled DLL to make it easier to access and modify the source code.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Warning</strong>: when upgrading from an earlier version you  must delete the old version before importing the new one. This will also  cause all of the <a href="https://kybernetikgames.github.io/ultevents/docs/creating-and-triggering#premade-event-scripts">Premade Event Scripts</a> in your project to go missing so you will need to set them all up again. This is an unfortunate side effect of the way Unity handles  references to scripts inside a DLL compared to regular script files.</p>
+</blockquote>
+<ul>
+<li>Replaced PDF user manual with a website hosted at <a href="https://kybernetikgames.github.io/ultevents">https://kybernetikgames.github.io/ultevents</a>.</li>
+<li>Added support for constructors.</li>
+<li>Added interfaces corresponding to all <a href="https://kybernetikgames.github.io/ultevents/api/UltEvents/UltEvent">UltEvent</a> types so that the ability to add and remove listeners can be exposed  without exposing the ability to invoke, clear, or access other members  of the event.</li>
+<li>Fixed cached <a href="https://kybernetikgames.github.io/ultevents/api/UltEvents/PersistentArgument">PersistentArgument</a> values to be cleared properly when the user modifies the argument in the Inspector.</li>
+<li>Removed the Parameter Constructors sub-menu because it isn't particularly useful now that actual constructors are supported.</li>
+</ul>
+<hr />
+<p>Next up I'm planning to work on an update for <a href="http://u3d.as/Kbg">Inspector Gadgets</a>.</p>
+
+
+  
+ 
 					</section>
 
 			</div>

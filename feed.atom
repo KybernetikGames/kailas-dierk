@@ -4,8 +4,36 @@
 	<title>Kailas Dierk</title>
 	<link rel="self" href="https://kybernetikgames.github.io/kailas-dierk" />
 	<rights>2019</rights>
-	<updated>2019-05-28T01:47:56Z</updated>
+	<updated>2019-06-03T09:06:39Z</updated>
 	<subtitle>Welcome to the personal blog of Kailas Dierk</subtitle>
+	<entry>
+		<id>https://kybernetikgames.github.io/kailas-dierk/posts/ultevents-v2-0</id>
+		<title>UltEvents v2.0</title>
+		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/ultevents-v2-0" />
+		<updated>2019-06-03T00:00:00Z</updated>
+		<content>&lt;p&gt;[&lt;a href="http://u3d.as/15Zc"&gt;Download&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/ultevents/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/687970/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:KybernetikGames&amp;#64;gmail.com?subject=UltEvents"&gt;KybernetikGames&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://u3d.as/15Zc"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/ultevents/docs"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Changes in v2.0:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Moved everything out of the precompiled DLL to make it easier to access and modify the source code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;: when upgrading from an earlier version you  must delete the old version before importing the new one. This will also  cause all of the &lt;a href="https://kybernetikgames.github.io/ultevents/docs/creating-and-triggering#premade-event-scripts"&gt;Premade Event Scripts&lt;/a&gt; in your project to go missing so you will need to set them all up again. This is an unfortunate side effect of the way Unity handles  references to scripts inside a DLL compared to regular script files.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Replaced PDF user manual with a website hosted at &lt;a href="https://kybernetikgames.github.io/ultevents"&gt;https://kybernetikgames.github.io/ultevents&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Added support for constructors.&lt;/li&gt;
+&lt;li&gt;Added interfaces corresponding to all &lt;a href="https://kybernetikgames.github.io/ultevents/api/UltEvents/UltEvent"&gt;UltEvent&lt;/a&gt; types so that the ability to add and remove listeners can be exposed  without exposing the ability to invoke, clear, or access other members  of the event.&lt;/li&gt;
+&lt;li&gt;Fixed cached &lt;a href="https://kybernetikgames.github.io/ultevents/api/UltEvents/PersistentArgument"&gt;PersistentArgument&lt;/a&gt; values to be cleared properly when the user modifies the argument in the Inspector.&lt;/li&gt;
+&lt;li&gt;Removed the Parameter Constructors sub-menu because it isn't particularly useful now that actual constructors are supported.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;Next up I'm planning to work on an update for &lt;a href="http://u3d.as/Kbg"&gt;Inspector Gadgets&lt;/a&gt;.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;[&lt;a href="http://u3d.as/15Zc"&gt;Download&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/ultevents/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/687970/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:KybernetikGames@gmail.com?subject=UltEvents"&gt;KybernetikGames@gmail.com&lt;/a&gt;]&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<id>https://kybernetikgames.github.io/kailas-dierk/posts/animancer-v3-0</id>
 		<title>Animancer v3.0</title>
