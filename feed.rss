@@ -5,17 +5,49 @@
 		<link>https://kybernetikgames.github.io/kailas-dierk</link>
 		<description>Welcome to the personal blog of Kailas Dierk</description>
 		<copyright>2019</copyright>
-		<pubDate>Fri, 21 Jun 2019 01:43:42 GMT</pubDate>
-		<lastBuildDate>Fri, 21 Jun 2019 01:43:42 GMT</lastBuildDate>
+		<pubDate>Tue, 02 Jul 2019 01:22:44 GMT</pubDate>
+		<lastBuildDate>Tue, 02 Jul 2019 01:22:44 GMT</lastBuildDate>
+		<item>
+			<title>Inspector Gadgets v6.0</title>
+			<link>https://kybernetikgames.github.io/kailas-dierk/posts/inspector-gadgets-v6.0</link>
+			<description>&lt;p&gt;&lt;strong&gt;Inspector Gadgets&lt;/strong&gt; is a &lt;a href="https://unity3d.com"&gt;Unity&lt;/a&gt; plugin which enhances various aspects of the Unity Editor to streamline your development workflow.&lt;/p&gt;</description>
+			<guid>https://kybernetikgames.github.io/kailas-dierk/posts/inspector-gadgets-v6.0</guid>
+			<pubDate>Tue, 02 Jul 2019 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;&lt;strong&gt;Inspector Gadgets&lt;/strong&gt; is a &lt;a href="https://unity3d.com"&gt;Unity&lt;/a&gt; plugin which enhances various aspects of the Unity Editor to streamline your development workflow.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://u3d.as/Kbg"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/inspector-gadgets"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
+&lt;p&gt;[&lt;a href="http://u3d.as/Kg3"&gt;Pro&lt;/a&gt;] [&lt;a href="http://u3d.as/Kbg"&gt;Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/inspector-gadgets"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/691546"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:KybernetikGames&amp;#64;gmail.com?subject=InspectorGadgets"&gt;KybernetikGames&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Changes in v6.0:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inspector Gadgets Pro is now delivered as regular scripts instead of a pre-compiled DLL to make it easier to view and modify the source code. Also reorganized the namespaces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;: when upgrading from an earlier version you must delete the old version before importing the new one. This will also cause any Inspector Gadgets components (such as &lt;code&gt;CommentComponent&lt;/code&gt;) in your project to go missing so you will need to set them all up again. This is an unfortunate side effect of the way Unity handles references to scripts inside a DLL compared to regular script files.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Added &lt;a href="https://kybernetikgames.github.io/inspector-gadgets/docs/context-menu-functions#persist-after-play-mode"&gt;Persist After Play Mode&lt;/a&gt; context menu function to all serialized properties.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;[OnOpenAsset]&lt;/code&gt; functions which are triggered when you hold certain modifier keys and Double Click on an asset in the Project window:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Alt + Double Click&lt;/code&gt; on a prefab to &lt;code&gt;Instantiate&lt;/code&gt; it in the scene.&lt;/li&gt;
+&lt;li&gt;If you hold &lt;code&gt;Ctrl&lt;/code&gt; as well it will also focus the camera on the instance.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + Shift + Alt + Double Click&lt;/code&gt; any asset to open its folder in your OS file explorer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Added context menu handler for &lt;code&gt;AnimationCurve&lt;/code&gt; properties with several functions: &lt;code&gt;Smooth Tangents&lt;/code&gt;, &lt;code&gt;Flip Horizontal&lt;/code&gt;, &lt;code&gt;Flip Vertical&lt;/code&gt;, &lt;code&gt;Enforce Horizontal Symmetry&lt;/code&gt;, &lt;code&gt;Extend Mirrorred&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;Next up I'm planning to make some more example scenes for &lt;a href="http://u3d.as/19Xd"&gt;Animancer&lt;/a&gt;.&lt;/p&gt;
+</content:encoded>
+		</item>
 		<item>
 			<title>UltEvents v2.0</title>
 			<link>https://kybernetikgames.github.io/kailas-dierk/posts/ultevents-v2-0</link>
-			<description>&lt;p&gt;[&lt;a href="http://u3d.as/15Zc"&gt;Download&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/ultevents/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/687970/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:KybernetikGames@gmail.com?subject=UltEvents"&gt;KybernetikGames@gmail.com&lt;/a&gt;]&lt;/p&gt;</description>
+			<description>&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;</description>
 			<guid>https://kybernetikgames.github.io/kailas-dierk/posts/ultevents-v2-0</guid>
 			<pubDate>Mon, 03 Jun 2019 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;p&gt;[&lt;a href="http://u3d.as/15Zc"&gt;Download&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/ultevents/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/687970/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:KybernetikGames&amp;#64;gmail.com?subject=UltEvents"&gt;KybernetikGames&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;
+			<content:encoded>&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://u3d.as/15Zc"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/ultevents/docs"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
+&lt;p&gt;[&lt;a href="http://u3d.as/15Zc"&gt;Download&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/ultevents/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/687970/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:KybernetikGames&amp;#64;gmail.com?subject=UltEvents"&gt;KybernetikGames&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Changes in v2.0:&lt;/p&gt;
 &lt;ul&gt;
