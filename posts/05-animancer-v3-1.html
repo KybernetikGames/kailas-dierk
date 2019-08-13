@@ -6,7 +6,7 @@
 -->
 <html lang="en">
 	<head>
-		<title>Kailas Dierk - Inspector Gadgets v6.0</title>
+		<title>Kailas Dierk - Animancer v3.1</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/kailas-dierk/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -25,9 +25,9 @@
 		<meta name="msapplication-tooltip" content="Kailas Dierk" />
 		<meta name="msapplication-starturl" content="/kailas-dierk/" />
 
-		<meta property="og:title" content="Kailas Dierk - Inspector Gadgets v6.0" /> 
+		<meta property="og:title" content="Kailas Dierk - Animancer v3.1" /> 
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://kybernetikgames.github.io/kailas-dierk/posts/inspector-gadgets-v6.0" />
+		<meta property="og:url" content="https://kybernetikgames.github.io/kailas-dierk/posts/05-animancer-v3-1" />
 		<!-- TODO: More social graph meta tags -->
         
 
@@ -42,9 +42,9 @@
 
     
 <header id="header">
-    <h1>Inspector Gadgets v6.0</h1>
+    <h1>Animancer v3.1</h1>
     <hr/>     
-        <p><em>Published on Tuesday, 2 July 2019</em></p>
+        <p><em>Published on Tuesday, 13 August 2019</em></p>
 </header>
 
 			<!-- Nav -->
@@ -66,30 +66,18 @@
 					<section id="content" class="main">
 						
 
-<p><strong>Inspector Gadgets</strong> is a <a href="https://unity3d.com">Unity</a> plugin which enhances various aspects of the Unity Editor to streamline your development workflow.</p>
-<p><a href="http://u3d.as/Kbg">Download it for <strong>free</strong></a> and check out the <a href="https://kybernetikgames.github.io/inspector-gadgets">Documentation</a> to get started.</p>
-<p>[<a href="http://u3d.as/Kg3">Pro</a>] [<a href="http://u3d.as/Kbg">Lite</a>] [<a href="https://kybernetikgames.github.io/inspector-gadgets">Documentation</a>] [<a href="https://forum.unity.com/threads/691546">Forum</a>] [<a href="mailto:KybernetikGames&#64;gmail.com?subject=InspectorGadgets">KybernetikGames&#64;gmail.com</a>]</p>
-<hr />
-<p>Changes in v6.0:</p>
+<p>I've recently been getting quite a few questions from people who are in the middle of a project built around Animator Controllers where they would like the ability to play separate Animation Clips alongside them as well as people who are unsure of how to go about deconstructing their Animator Controllers to use Animancer instead.</p>
+<p>So that's the main focus of the v3.1 update:</p>
 <ul>
-<li>Inspector Gadgets Pro is now delivered as regular scripts instead of a pre-compiled DLL to make it easier to view and modify the source code. Also reorganized the namespaces.</li>
+<li>Added a <code>HybridAnimancerComponent</code> with <a href="https://kybernetikgames.github.io/animancer/docs/examples/animator-controllers/hybrid">an example</a> to demonstrate how to use a default Animator Controller for some things and separate <code>AnimationClips</code> for others.</li>
+<li>Added another example which renames the Animator Controller based player character from Unity's <a href="https://kybernetikgames.github.io/animancer/docs/examples/animator-controllers/3d-game-kit">3D Game Kit</a> to use Animancer instead.</li>
+<li>Added a <a href="https://kybernetikgames.github.io/animancer/docs/examples/locomotion/root-motion">Root Motion</a> example to demonstrate how serializables can be used to indicate whether each animation should use root motion or not. This is by far the largest of any of the examples.</li>
+<li>Added <code>AnimancerUtilities.EditModePlay</code> to more easily <a href="https://kybernetikgames.github.io/animancer/docs/manual/playing-animations#edit-mode">play animations in Edit Mode</a> (it was already possible, this just makes it a bit easier).</li>
+<li>Added a <code>Toggle Looping</code> <a href="https://kybernetikgames.github.io/animancer/docs/manual/inspector#context-menus">Context Menu Function</a> to <code>AnimationClip</code> assets (since you can't multi-edit them).</li>
 </ul>
-<blockquote class="blockquote">
-<p><strong>Warning</strong>: when upgrading from an earlier version you must delete the old version before importing the new one. This will also cause any Inspector Gadgets components (such as <code>CommentComponent</code>) in your project to go missing so you will need to set them all up again. This is an unfortunate side effect of the way Unity handles references to scripts inside a DLL compared to regular script files.</p>
-</blockquote>
-<ul>
-<li>Added <a href="https://kybernetikgames.github.io/inspector-gadgets/docs/context-menu-functions#persist-after-play-mode">Persist After Play Mode</a> context menu function to all serialized properties.</li>
-<li>Added <code>[OnOpenAsset]</code> functions which are triggered when you hold certain modifier keys and Double Click on an asset in the Project window:
-<ul>
-<li><code>Alt + Double Click</code> on a prefab to <code>Instantiate</code> it in the scene.</li>
-<li>If you hold <code>Ctrl</code> as well it will also focus the camera on the instance.</li>
-<li><code>Ctrl + Shift + Alt + Double Click</code> any asset to open its folder in your OS file explorer.</li>
-</ul>
-</li>
-<li>Added context menu handler for <code>AnimationCurve</code> properties with several functions: <code>Smooth Tangents</code>, <code>Flip Horizontal</code>, <code>Flip Vertical</code>, <code>Enforce Horizontal Symmetry</code>, <code>Extend Mirrorred</code>.</li>
-</ul>
-<hr />
-<p>Next up I'm planning to make some more example scenes for <a href="http://u3d.as/19Xd">Animancer</a>.</p>
+<p>See the <a href="https://kybernetikgames.github.io/animancer/docs/changes/animancer-v3-1">Change Log</a> for the full list of changes.</p>
+<p>I've also added a quick <a href="https://forms.gle/43ZyiaWhGWmiTyL98">Survey</a> to the Read Me to hopefully get some feedback about which features people actually use and what I can improve in the future. As always, any other feedback and questions are appreciated.</p>
+<p>[<a href="http://u3d.as/19Xb">Animancer Pro</a>] [<a href="http://u3d.as/19Xd">Animancer Lite</a>] [<a href="https://kybernetikgames.github.io/animancer/docs/introduction/feature-comparison">Feature Comparison</a>] [<a href="https://kybernetikgames.github.io/animancer/">Documentation</a>] [<a href="https://kybernetikgames.github.io/animancer/docs/examples">Examples</a>]</p>
 
 
   

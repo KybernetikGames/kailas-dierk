@@ -4,12 +4,32 @@
 	<title>Kailas Dierk</title>
 	<link rel="self" href="https://kybernetikgames.github.io/kailas-dierk" />
 	<rights>2019</rights>
-	<updated>2019-07-02T01:22:44Z</updated>
+	<updated>2019-08-13T11:55:01Z</updated>
 	<subtitle>Welcome to the personal blog of Kailas Dierk</subtitle>
 	<entry>
-		<id>https://kybernetikgames.github.io/kailas-dierk/posts/inspector-gadgets-v6.0</id>
+		<id>https://kybernetikgames.github.io/kailas-dierk/posts/05-animancer-v3-1</id>
+		<title>Animancer v3.1</title>
+		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/05-animancer-v3-1" />
+		<updated>2019-08-13T00:00:00Z</updated>
+		<content>&lt;p&gt;I've recently been getting quite a few questions from people who are in the middle of a project built around Animator Controllers where they would like the ability to play separate Animation Clips alongside them as well as people who are unsure of how to go about deconstructing their Animator Controllers to use Animancer instead.&lt;/p&gt;
+&lt;p&gt;So that's the main focus of the v3.1 update:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added a &lt;code&gt;HybridAnimancerComponent&lt;/code&gt; with &lt;a href="https://kybernetikgames.github.io/animancer/docs/examples/animator-controllers/hybrid"&gt;an example&lt;/a&gt; to demonstrate how to use a default Animator Controller for some things and separate &lt;code&gt;AnimationClips&lt;/code&gt; for others.&lt;/li&gt;
+&lt;li&gt;Added another example which renames the Animator Controller based player character from Unity's &lt;a href="https://kybernetikgames.github.io/animancer/docs/examples/animator-controllers/3d-game-kit"&gt;3D Game Kit&lt;/a&gt; to use Animancer instead.&lt;/li&gt;
+&lt;li&gt;Added a &lt;a href="https://kybernetikgames.github.io/animancer/docs/examples/locomotion/root-motion"&gt;Root Motion&lt;/a&gt; example to demonstrate how serializables can be used to indicate whether each animation should use root motion or not. This is by far the largest of any of the examples.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;AnimancerUtilities.EditModePlay&lt;/code&gt; to more easily &lt;a href="https://kybernetikgames.github.io/animancer/docs/manual/playing-animations#edit-mode"&gt;play animations in Edit Mode&lt;/a&gt; (it was already possible, this just makes it a bit easier).&lt;/li&gt;
+&lt;li&gt;Added a &lt;code&gt;Toggle Looping&lt;/code&gt; &lt;a href="https://kybernetikgames.github.io/animancer/docs/manual/inspector#context-menus"&gt;Context Menu Function&lt;/a&gt; to &lt;code&gt;AnimationClip&lt;/code&gt; assets (since you can't multi-edit them).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See the &lt;a href="https://kybernetikgames.github.io/animancer/docs/changes/animancer-v3-1"&gt;Change Log&lt;/a&gt; for the full list of changes.&lt;/p&gt;
+&lt;p&gt;I've also added a quick &lt;a href="https://forms.gle/43ZyiaWhGWmiTyL98"&gt;Survey&lt;/a&gt; to the Read Me to hopefully get some feedback about which features people actually use and what I can improve in the future. As always, any other feedback and questions are appreciated.&lt;/p&gt;
+&lt;p&gt;[&lt;a href="http://u3d.as/19Xb"&gt;Animancer Pro&lt;/a&gt;] [&lt;a href="http://u3d.as/19Xd"&gt;Animancer Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer/docs/introduction/feature-comparison"&gt;Feature Comparison&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer/docs/examples"&gt;Examples&lt;/a&gt;]&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;I've recently been getting quite a few questions from people who are in the middle of a project built around Animator Controllers where they would like the ability to play separate Animation Clips alongside them as well as people who are unsure of how to go about deconstructing their Animator Controllers to use Animancer instead.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>https://kybernetikgames.github.io/kailas-dierk/posts/04-inspector-gadgets-v6-0</id>
 		<title>Inspector Gadgets v6.0</title>
-		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/inspector-gadgets-v6.0" />
+		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/04-inspector-gadgets-v6-0" />
 		<updated>2019-07-02T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;Inspector Gadgets&lt;/strong&gt; is a &lt;a href="https://unity3d.com"&gt;Unity&lt;/a&gt; plugin which enhances various aspects of the Unity Editor to streamline your development workflow.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://u3d.as/Kbg"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/inspector-gadgets"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
@@ -39,9 +59,9 @@
 		<summary>&lt;p&gt;&lt;strong&gt;Inspector Gadgets&lt;/strong&gt; is a &lt;a href="https://unity3d.com"&gt;Unity&lt;/a&gt; plugin which enhances various aspects of the Unity Editor to streamline your development workflow.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<id>https://kybernetikgames.github.io/kailas-dierk/posts/ultevents-v2-0</id>
+		<id>https://kybernetikgames.github.io/kailas-dierk/posts/03-ultevents-v2-0</id>
 		<title>UltEvents v2.0</title>
-		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/ultevents-v2-0" />
+		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/03-ultevents-v2-0" />
 		<updated>2019-06-03T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://u3d.as/15Zc"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/ultevents/docs"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
@@ -67,9 +87,9 @@
 		<summary>&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<id>https://kybernetikgames.github.io/kailas-dierk/posts/animancer-v3-0</id>
+		<id>https://kybernetikgames.github.io/kailas-dierk/posts/02-animancer-v3-0</id>
 		<title>Animancer v3.0</title>
-		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/animancer-v3-0" />
+		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/02-animancer-v3-0" />
 		<updated>2019-05-28T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;Animancer&lt;/strong&gt; gives you the ability to play and control animations dynamically at runtime using simple scripts instead of manually configuring inflexible Animator Controllers that encourage &lt;a href="https://kybernetikgames.github.io/animancer/docs/introduction/mecanim-vs-animancer/why-replace-mecanim"&gt;bad programming practices&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;[&lt;a href="http://u3d.as/19Xb"&gt;Animancer Pro&lt;/a&gt;] [&lt;a href="http://u3d.as/19Xd"&gt;Animancer Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/566452/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:AnimancerUnityPlugin&amp;#64;gmail.com"&gt;AnimancerUnityPlugin&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
@@ -108,9 +128,9 @@
 		<summary>&lt;p&gt;&lt;strong&gt;Animancer&lt;/strong&gt; gives you the ability to play and control animations dynamically at runtime using simple scripts instead of manually configuring inflexible Animator Controllers that encourage &lt;a href="https://kybernetikgames.github.io/animancer/docs/introduction/mecanim-vs-animancer/why-replace-mecanim"&gt;bad programming practices&lt;/a&gt;.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<id>https://kybernetikgames.github.io/kailas-dierk/posts/hello-world</id>
+		<id>https://kybernetikgames.github.io/kailas-dierk/posts/01-hello-world</id>
 		<title>Hello World</title>
-		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/hello-world" />
+		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/01-hello-world" />
 		<updated>2019-03-27T00:00:00Z</updated>
 		<content>&lt;p&gt;Recently while developing &lt;a href="/kailas-dierk/unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;
 &lt;ol&gt;
