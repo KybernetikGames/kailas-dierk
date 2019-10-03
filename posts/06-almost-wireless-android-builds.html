@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Kailas Dierk - (Almost) Wireless Android Builds in Unity</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="/kailas-dierk/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/kailas-dierk/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="/kailas-dierk/assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="/kailas-dierk/assets/css/ie8.css" /><![endif]-->
+
+		<meta name="description" content="Welcome to the personal blog of Kailas Dierk" />
+		<link type="application/rss+xml" rel="alternate" title="Kailas Dierk" href="/kailas-dierk/feed.rss" />
+				<link type="application/atom+xml" rel="alternate" title="Kailas Dierk" href="/kailas-dierk/feed.atom" />
+		<link rel="shortcut icon" href="/kailas-dierk/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/kailas-dierk/favicon.ico" type="image/x-icon">
+		<!--<link rel="apple-touch-icon" href="/kailas-dierk/images/logo.png">-->
+
+		<meta name="application-name" content="Kailas Dierk" />
+		<meta name="msapplication-tooltip" content="Kailas Dierk" />
+		<meta name="msapplication-starturl" content="/kailas-dierk/" />
+
+		<meta property="og:title" content="Kailas Dierk - (Almost) Wireless Android Builds in Unity" /> 
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://kybernetikgames.github.io/kailas-dierk/posts/06-almost-wireless-android-builds" />
+		<!-- TODO: More social graph meta tags -->
+        
+
+		
+	</head>
+
+	<body>
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+
+    
+<header id="header">
+    <h1>(Almost) Wireless Android Builds in Unity</h1>
+    <hr/>     
+        <p><em>Published on Thursday, 3 October 2019</em></p>
+</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><strong><a href='/kailas-dierk/'>Kailas Dierk</a></strong></li>
+        <li><a href="/kailas-dierk/posts">Archive</a></li>
+        <li><a href="/kailas-dierk/about-me">About Me</a></li>
+        <li><a href="/kailas-dierk/games">Games</a></li>
+        <li><a href="/kailas-dierk/unity-assets">Unity Assets</a></li>
+
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Content -->
+					<section id="content" class="main">
+						
+
+<p>My trusty old Nexus 5 is finally dying because it's USB port has become increasingly unstable. There are two main reasons why it has survived this long: wireless charging and wireless deployment, both of which allow me to minimise the wear and tear on that port. So in this post I will explain the simple script I wrote to allow Unity to deploy builds to my phone (almost) wirelessly.</p>
+<h1 id="initial-setup">Initial Setup</h1>
+<ol>
+<li>To begin with, you need to have everything set up (Android SDK, USB debugging, etc.) so that when you have your device connected via USB you can use the <code>File/Build &amp; Run</code> command in Unity to build, deploy, and run your application. There are plenty of other tutorials for how to do that, so I won't be covering it here.</li>
+<li>Add my <a href="06-almost-wireless-android-builds/AndroidUtils.cs">AndroidUtils.cs</a> script to your Unity project. Either right click that link and use the <code>Save As</code> command or just make a new script in Unity and copy the contents into it.</li>
+</ol>
+<h1 id="using-the-script">Using The Script</h1>
+<ol>
+<li>Connect your device to your computer via USB and to the same WiFi network.</li>
+<li>Run the <code>File/Connect to Android Device</code> menu command added by the <code>AndroidUtils</code> script. This will open a few blank Command Prompt windows and lock up Unity for a few seconds while it does its thing.</li>
+<li>If it succeeds, the last message it logs will be <code>connected to 192.168.1.2:5555</code> (depending on the actual IP address of your device). But if it logs <code>error: no devices/emulators found</code> you should be able to just run the command again to get it to work.</li>
+<li>Now you can use Unity's <code>File/Build &amp; Run</code> command without needing to keep your device connected via USB.</li>
+<li>If you turn off your computer or disconnect your device from the WiFi network, you will need to start from step 1 again.</li>
+</ol>
+<p>And there you have it, now you only need to connect your USB cable once after turning your computer on, but after that you can deploy your builds wirelessly.</p>
+<img src="06-almost-wireless-android-builds/connect-to-android-device.gif" style="max-width:100%">
+<h1 id="how-does-it-work">How Does It Work?</h1>
+<p>The script essentially just finds <code>adb.exe</code> in your Android SDK installation and executes a few commands which you would normally do using Command Prompt:</p>
+<ol>
+<li><code>adb tcpip 5555</code> starts ADB in &quot;tcpip&quot; mode using port 5555.</li>
+<li><code>adb shell ip route</code> gets a bunch of info which includes the IP addresses of any connected Android devices.</li>
+<li>The script simply grabs the last IP address, so if you have multiple devices you might need to make something slightly more complex. Maybe open an <code>EditorWindow</code> that lists all the devices so you can click the one you want.</li>
+<li><code>adb connect &lt;address&gt;</code> sets up the connection so that it will stay open over WiFi.</li>
+</ol>
+
+
+  
+ 
+					</section>
+
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<section>
+        <h2>Feeds</h2>
+        <ul class="actions">
+            <li><a href="/kailas-dierk/feed.rss" class="button small"><i class="fa fa-rss"></i> RSS Feed</a></li>
+                        <li><a href="/kailas-dierk/feed.atom" class="button small"><i class="fa fa-rss"></i> Atom Feed</a></li>
+        </ul>
+</section>
+<section>
+</section>
+<p class="copyright">
+    Copyright © 2019,
+    Design: <a href="http://html5up.net">HTML5 UP</a>,
+    <a href="https://wyam.io">Generated by Wyam</a>
+</p>
+			</footer>
+
+		</div>
+		
+		
+
+	<!-- Scripts -->
+	<script src="/kailas-dierk/assets/js/jquery.min.js"></script>
+	<script src="/kailas-dierk/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/kailas-dierk/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/kailas-dierk/assets/js/skel.min.js"></script>
+	<script src="/kailas-dierk/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="/kailas-dierk/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="/kailas-dierk/assets/js/main.js"></script>
+
+	</body>
+	
+</html>

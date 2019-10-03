@@ -4,8 +4,40 @@
 	<title>Kailas Dierk</title>
 	<link rel="self" href="https://kybernetikgames.github.io/kailas-dierk" />
 	<rights>2019</rights>
-	<updated>2019-08-13T11:55:01Z</updated>
+	<updated>2019-10-03T03:21:42Z</updated>
 	<subtitle>Welcome to the personal blog of Kailas Dierk</subtitle>
+	<entry>
+		<id>https://kybernetikgames.github.io/kailas-dierk/posts/06-almost-wireless-android-builds</id>
+		<title>(Almost) Wireless Android Builds in Unity</title>
+		<link href="https://kybernetikgames.github.io/kailas-dierk/posts/06-almost-wireless-android-builds" />
+		<updated>2019-10-03T00:00:00Z</updated>
+		<content>&lt;p&gt;My trusty old Nexus 5 is finally dying because it's USB port has become increasingly unstable. There are two main reasons why it has survived this long: wireless charging and wireless deployment, both of which allow me to minimise the wear and tear on that port. So in this post I will explain the simple script I wrote to allow Unity to deploy builds to my phone (almost) wirelessly.&lt;/p&gt;
+&lt;h1 id="initial-setup"&gt;Initial Setup&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;To begin with, you need to have everything set up (Android SDK, USB debugging, etc.) so that when you have your device connected via USB you can use the &lt;code&gt;File/Build &amp;amp; Run&lt;/code&gt; command in Unity to build, deploy, and run your application. There are plenty of other tutorials for how to do that, so I won't be covering it here.&lt;/li&gt;
+&lt;li&gt;Add my &lt;a href="06-almost-wireless-android-builds/AndroidUtils.cs"&gt;AndroidUtils.cs&lt;/a&gt; script to your Unity project. Either right click that link and use the &lt;code&gt;Save As&lt;/code&gt; command or just make a new script in Unity and copy the contents into it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="using-the-script"&gt;Using The Script&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Connect your device to your computer via USB and to the same WiFi network.&lt;/li&gt;
+&lt;li&gt;Run the &lt;code&gt;File/Connect to Android Device&lt;/code&gt; menu command added by the &lt;code&gt;AndroidUtils&lt;/code&gt; script. This will open a few blank Command Prompt windows and lock up Unity for a few seconds while it does its thing.&lt;/li&gt;
+&lt;li&gt;If it succeeds, the last message it logs will be &lt;code&gt;connected to 192.168.1.2:5555&lt;/code&gt; (depending on the actual IP address of your device). But if it logs &lt;code&gt;error: no devices/emulators found&lt;/code&gt; you should be able to just run the command again to get it to work.&lt;/li&gt;
+&lt;li&gt;Now you can use Unity's &lt;code&gt;File/Build &amp;amp; Run&lt;/code&gt; command without needing to keep your device connected via USB.&lt;/li&gt;
+&lt;li&gt;If you turn off your computer or disconnect your device from the WiFi network, you will need to start from step 1 again.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And there you have it, now you only need to connect your USB cable once after turning your computer on, but after that you can deploy your builds wirelessly.&lt;/p&gt;
+&lt;img src="06-almost-wireless-android-builds/connect-to-android-device.gif" style="max-width:100%"&gt;
+&lt;h1 id="how-does-it-work"&gt;How Does It Work?&lt;/h1&gt;
+&lt;p&gt;The script essentially just finds &lt;code&gt;adb.exe&lt;/code&gt; in your Android SDK installation and executes a few commands which you would normally do using Command Prompt:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;adb tcpip 5555&lt;/code&gt; starts ADB in &amp;quot;tcpip&amp;quot; mode using port 5555.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;adb shell ip route&lt;/code&gt; gets a bunch of info which includes the IP addresses of any connected Android devices.&lt;/li&gt;
+&lt;li&gt;The script simply grabs the last IP address, so if you have multiple devices you might need to make something slightly more complex. Maybe open an &lt;code&gt;EditorWindow&lt;/code&gt; that lists all the devices so you can click the one you want.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;adb connect &amp;lt;address&amp;gt;&lt;/code&gt; sets up the connection so that it will stay open over WiFi.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+		<summary>&lt;p&gt;My trusty old Nexus 5 is finally dying because it's USB port has become increasingly unstable. There are two main reasons why it has survived this long: wireless charging and wireless deployment, both of which allow me to minimise the wear and tear on that port. So in this post I will explain the simple script I wrote to allow Unity to deploy builds to my phone (almost) wirelessly.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<id>https://kybernetikgames.github.io/kailas-dierk/posts/05-animancer-v3-1</id>
 		<title>Animancer v3.1</title>
