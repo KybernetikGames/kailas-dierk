@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://www.kybernetik.com.au/kailas-dierk</id>
+	<id>https://kybernetik.com.au/kailas-dierk</id>
 	<title>Kailas Dierk</title>
-	<link rel="self" href="https://www.kybernetik.com.au/kailas-dierk" />
+	<link rel="self" href="https://kybernetik.com.au/kailas-dierk" />
 	<rights>2020</rights>
-	<updated>2020-01-15T12:12:43Z</updated>
+	<updated>2020-01-15T12:19:52Z</updated>
 	<subtitle>Welcome to the personal blog of Kailas Dierk</subtitle>
 	<entry>
-		<id>https://www.kybernetik.com.au/kailas-dierk/posts/06-almost-wireless-android-builds</id>
+		<id>https://kybernetik.com.au/kailas-dierk/posts/06-almost-wireless-android-builds</id>
 		<title>(Almost) Wireless Android Builds in Unity</title>
-		<link href="https://www.kybernetik.com.au/kailas-dierk/posts/06-almost-wireless-android-builds" />
+		<link href="https://kybernetik.com.au/kailas-dierk/posts/06-almost-wireless-android-builds" />
 		<updated>2019-10-03T00:00:00Z</updated>
 		<content>&lt;p&gt;My trusty old Nexus 5 is finally dying because it's USB port has become increasingly unstable. There are two main reasons why it has survived this long: wireless charging and wireless deployment, both of which allow me to minimise the wear and tear on that port. So in this post I will explain the simple script I wrote to allow Unity to deploy builds to my phone (almost) wirelessly.&lt;/p&gt;
 &lt;h1 id="initial-setup"&gt;Initial Setup&lt;/h1&gt;
@@ -39,9 +39,9 @@
 		<summary>&lt;p&gt;My trusty old Nexus 5 is finally dying because it's USB port has become increasingly unstable. There are two main reasons why it has survived this long: wireless charging and wireless deployment, both of which allow me to minimise the wear and tear on that port. So in this post I will explain the simple script I wrote to allow Unity to deploy builds to my phone (almost) wirelessly.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<id>https://www.kybernetik.com.au/kailas-dierk/posts/05-animancer-v3-1</id>
+		<id>https://kybernetik.com.au/kailas-dierk/posts/05-animancer-v3-1</id>
 		<title>Animancer v3.1</title>
-		<link href="https://www.kybernetik.com.au/kailas-dierk/posts/05-animancer-v3-1" />
+		<link href="https://kybernetik.com.au/kailas-dierk/posts/05-animancer-v3-1" />
 		<updated>2019-08-13T00:00:00Z</updated>
 		<content>&lt;p&gt;I've recently been getting quite a few questions from people who are in the middle of a project built around Animator Controllers where they would like the ability to play separate Animation Clips alongside them as well as people who are unsure of how to go about deconstructing their Animator Controllers to use Animancer instead.&lt;/p&gt;
 &lt;p&gt;So that's the main focus of the v3.1 update:&lt;/p&gt;
@@ -59,9 +59,9 @@
 		<summary>&lt;p&gt;I've recently been getting quite a few questions from people who are in the middle of a project built around Animator Controllers where they would like the ability to play separate Animation Clips alongside them as well as people who are unsure of how to go about deconstructing their Animator Controllers to use Animancer instead.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<id>https://www.kybernetik.com.au/kailas-dierk/posts/04-inspector-gadgets-v6-0</id>
+		<id>https://kybernetik.com.au/kailas-dierk/posts/04-inspector-gadgets-v6-0</id>
 		<title>Inspector Gadgets v6.0</title>
-		<link href="https://www.kybernetik.com.au/kailas-dierk/posts/04-inspector-gadgets-v6-0" />
+		<link href="https://kybernetik.com.au/kailas-dierk/posts/04-inspector-gadgets-v6-0" />
 		<updated>2019-07-02T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;Inspector Gadgets&lt;/strong&gt; is a &lt;a href="https://unity3d.com"&gt;Unity&lt;/a&gt; plugin which enhances various aspects of the Unity Editor to streamline your development workflow.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://assetstore.unity.com/packages/tools/gui/inspector-gadgets-lite-82896?aid=1100l8ah5"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/inspector-gadgets"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
@@ -91,9 +91,9 @@
 		<summary>&lt;p&gt;&lt;strong&gt;Inspector Gadgets&lt;/strong&gt; is a &lt;a href="https://unity3d.com"&gt;Unity&lt;/a&gt; plugin which enhances various aspects of the Unity Editor to streamline your development workflow.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<id>https://www.kybernetik.com.au/kailas-dierk/posts/03-ultevents-v2-0</id>
+		<id>https://kybernetik.com.au/kailas-dierk/posts/03-ultevents-v2-0</id>
 		<title>UltEvents v2.0</title>
-		<link href="https://www.kybernetik.com.au/kailas-dierk/posts/03-ultevents-v2-0" />
+		<link href="https://kybernetik.com.au/kailas-dierk/posts/03-ultevents-v2-0" />
 		<updated>2019-06-03T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://assetstore.unity.com/packages/tools/gui/ultevents-111307?aid=1100l8ah5"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/ultevents/docs"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
@@ -119,9 +119,9 @@
 		<summary>&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<id>https://www.kybernetik.com.au/kailas-dierk/posts/02-animancer-v3-0</id>
+		<id>https://kybernetik.com.au/kailas-dierk/posts/02-animancer-v3-0</id>
 		<title>Animancer v3.0</title>
-		<link href="https://www.kybernetik.com.au/kailas-dierk/posts/02-animancer-v3-0" />
+		<link href="https://kybernetik.com.au/kailas-dierk/posts/02-animancer-v3-0" />
 		<updated>2019-05-28T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;Animancer&lt;/strong&gt; gives you the ability to play and control animations dynamically at runtime using simple scripts instead of manually configuring inflexible Animator Controllers that encourage &lt;a href="https://kybernetikgames.github.io/animancer/docs/introduction/mecanim-vs-animancer/why-replace-mecanim"&gt;bad programming practices&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-pro-116514?aid=1100l8ah5"&gt;Animancer Pro&lt;/a&gt;] [&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-lite-116516?aid=1100l8ah5"&gt;Animancer Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/566452"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:AnimancerUnityPlugin&amp;#64;gmail.com"&gt;AnimancerUnityPlugin&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
@@ -160,9 +160,9 @@
 		<summary>&lt;p&gt;&lt;strong&gt;Animancer&lt;/strong&gt; gives you the ability to play and control animations dynamically at runtime using simple scripts instead of manually configuring inflexible Animator Controllers that encourage &lt;a href="https://kybernetikgames.github.io/animancer/docs/introduction/mecanim-vs-animancer/why-replace-mecanim"&gt;bad programming practices&lt;/a&gt;.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<id>https://www.kybernetik.com.au/kailas-dierk/posts/01-hello-world</id>
+		<id>https://kybernetik.com.au/kailas-dierk/posts/01-hello-world</id>
 		<title>Hello World</title>
-		<link href="https://www.kybernetik.com.au/kailas-dierk/posts/01-hello-world" />
+		<link href="https://kybernetik.com.au/kailas-dierk/posts/01-hello-world" />
 		<updated>2019-03-27T00:00:00Z</updated>
 		<content>&lt;p&gt;Recently while developing &lt;a href="/kailas-dierk/unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;
 &lt;ol&gt;
