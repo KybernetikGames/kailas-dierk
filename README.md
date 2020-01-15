@@ -1,1 +1,1 @@
-# https://kybernetik.com.au/kailas-dierk/
+# kybernetik.com.au/kailas-dierk
