@@ -1,1 +1,1 @@
-# https://kybernetikgames.github.io/kailas-dierk/
+# https://kybernetik.com.au/kailas-dierk/
