@@ -4,8 +4,18 @@
 	<title>Kailas Dierk</title>
 	<link rel="self" href="https://kybernetik.com.au/kailas-dierk" />
 	<rights>2020</rights>
-	<updated>2020-01-15T12:39:31Z</updated>
+	<updated>2020-01-29T12:30:29Z</updated>
 	<subtitle>Welcome to the personal blog of Kailas Dierk</subtitle>
+	<entry>
+		<id>https://kybernetik.com.au/kailas-dierk/posts/07-animancer-v4-0</id>
+		<title>Animancer v4.0</title>
+		<link href="https://kybernetik.com.au/kailas-dierk/posts/07-animancer-v4-0" />
+		<updated>2020-01-29T00:00:00Z</updated>
+		<content>&lt;p&gt;&lt;a href="/animancer"&gt;Animancer&lt;/a&gt; is an alternative animation system which allows you to control everything in code instead of needing to set up clunky Animator Controllers.&lt;/p&gt;
+&lt;p&gt;To celebrate the release of &lt;a href="/animancer/docs/changes/animancer-v4-0"&gt;Animancer v4.0&lt;/a&gt; I'll be giving away a couple of &lt;strong&gt;free vouchers&lt;/strong&gt;. All you need to do is post a screenshot of one of your Animator Controllers in the &lt;a href="https://www.reddit.com/r/Unity3D/comments/evlmyu/animancer_v40_post_your_animator_controller_for_a/"&gt;Reddit Thread&lt;/a&gt; and a quick description of what is working well or any annoyances you have with your setup. Then when that post is about 24 hours old I'll randomly select a couple of people and send them free vouchers for Animancer Pro.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;&lt;a href="/animancer"&gt;Animancer&lt;/a&gt; is an alternative animation system which allows you to control everything in code instead of needing to set up clunky Animator Controllers.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<id>https://kybernetik.com.au/kailas-dierk/posts/06-almost-wireless-android-builds</id>
 		<title>(Almost) Wireless Android Builds in Unity</title>
@@ -54,7 +64,7 @@
 &lt;/ul&gt;
 &lt;p&gt;See the &lt;a href="https://kybernetikgames.github.io/animancer/docs/changes/animancer-v3-1"&gt;Change Log&lt;/a&gt; for the full list of changes.&lt;/p&gt;
 &lt;p&gt;I've also added a quick &lt;a href="https://forms.gle/43ZyiaWhGWmiTyL98"&gt;Survey&lt;/a&gt; to the Read Me to hopefully get some feedback about which features people actually use and what I can improve in the future. As always, any other feedback and questions are appreciated.&lt;/p&gt;
-&lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-pro-116514?aid=1100l8ah5"&gt;Animancer Pro&lt;/a&gt;] [&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-lite-116516?aid=1100l8ah5"&gt;Animancer Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/566452"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:AnimancerUnityPlugin&amp;#64;gmail.com"&gt;AnimancerUnityPlugin&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-pro-116514?aid=1100l8ah5"&gt;Animancer Pro&lt;/a&gt;] [&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-lite-116516?aid=1100l8ah5"&gt;Animancer Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/566452"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:animancer&amp;#64;kybernetik.com.au"&gt;animancer&amp;#64;kybernetik.com.au&lt;/a&gt;]&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;I've recently been getting quite a few questions from people who are in the middle of a project built around Animator Controllers where they would like the ability to play separate Animation Clips alongside them as well as people who are unsure of how to go about deconstructing their Animator Controllers to use Animancer instead.&lt;/p&gt;</summary>
 	</entry>
@@ -65,7 +75,7 @@
 		<updated>2019-07-02T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;Inspector Gadgets&lt;/strong&gt; is a &lt;a href="https://unity3d.com"&gt;Unity&lt;/a&gt; plugin which enhances various aspects of the Unity Editor to streamline your development workflow.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://assetstore.unity.com/packages/tools/gui/inspector-gadgets-lite-82896?aid=1100l8ah5"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/inspector-gadgets"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
-&lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/gui/inspector-gadgets-pro-83013?aid=1100l8ah5"&gt;Pro&lt;/a&gt;] [&lt;a href="https://assetstore.unity.com/packages/tools/gui/inspector-gadgets-lite-82896?aid=1100l8ah5"&gt;Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/inspector-gadgets"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/691546"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:KybernetikGames&amp;#64;gmail.com?subject=InspectorGadgets"&gt;KybernetikGames&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/gui/inspector-gadgets-pro-83013?aid=1100l8ah5"&gt;Pro&lt;/a&gt;] [&lt;a href="https://assetstore.unity.com/packages/tools/gui/inspector-gadgets-lite-82896?aid=1100l8ah5"&gt;Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/inspector-gadgets"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/691546"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:mail&amp;#64;kybernetik.com.au?subject=InspectorGadgets"&gt;mail&amp;#64;kybernetik.com.au&lt;/a&gt;]&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Changes in v6.0:&lt;/p&gt;
 &lt;ul&gt;
@@ -97,7 +107,7 @@
 		<updated>2019-06-03T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;UltEvents&lt;/strong&gt; allows you to easily setup and configure persistent event  callbacks via the Inspector. It serves the same purpose as the inbuilt &lt;a href="https://docs.unity3d.com/Manual/UnityEvents.html"&gt;UnityEvents&lt;/a&gt;,  but has superior features with fewer restrictions and an improved  Inspector interface which requires fewer clicks to perform individual tasks.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://assetstore.unity.com/packages/tools/gui/ultevents-111307?aid=1100l8ah5"&gt;Download it for &lt;strong&gt;free&lt;/strong&gt;&lt;/a&gt; and check out the &lt;a href="https://kybernetikgames.github.io/ultevents/docs"&gt;Documentation&lt;/a&gt; to get started.&lt;/p&gt;
-&lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/gui/ultevents-111307?aid=1100l8ah5"&gt;Download&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/ultevents/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/687970/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:KybernetikGames&amp;#64;gmail.com?subject=UltEvents"&gt;KybernetikGames&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/gui/ultevents-111307?aid=1100l8ah5"&gt;Download&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/ultevents/"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/687970/"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:mail&amp;#64;kybernetik.com.au?subject=UltEvents"&gt;mail&amp;#64;kybernetik.com.au&lt;/a&gt;]&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Changes in v2.0:&lt;/p&gt;
 &lt;ul&gt;
@@ -124,7 +134,7 @@
 		<link href="https://kybernetik.com.au/kailas-dierk/posts/02-animancer-v3-0" />
 		<updated>2019-05-28T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;Animancer&lt;/strong&gt; gives you the ability to play and control animations dynamically at runtime using simple scripts instead of manually configuring inflexible Animator Controllers that encourage &lt;a href="https://kybernetikgames.github.io/animancer/docs/introduction/mecanim-vs-animancer/why-replace-mecanim"&gt;bad programming practices&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-pro-116514?aid=1100l8ah5"&gt;Animancer Pro&lt;/a&gt;] [&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-lite-116516?aid=1100l8ah5"&gt;Animancer Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/566452"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:AnimancerUnityPlugin&amp;#64;gmail.com"&gt;AnimancerUnityPlugin&amp;#64;gmail.com&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;[&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-pro-116514?aid=1100l8ah5"&gt;Animancer Pro&lt;/a&gt;] [&lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-lite-116516?aid=1100l8ah5"&gt;Animancer Lite&lt;/a&gt;] [&lt;a href="https://kybernetikgames.github.io/animancer"&gt;Documentation&lt;/a&gt;] [&lt;a href="https://forum.unity.com/threads/566452"&gt;Forum&lt;/a&gt;] [&lt;a href="mailto:animancer&amp;#64;kybernetik.com.au"&gt;animancer&amp;#64;kybernetik.com.au&lt;/a&gt;]&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Animancer v3.0 is a very large update which brings some notable improvements to the system:&lt;/p&gt;
 &lt;ul&gt;
@@ -141,7 +151,7 @@
 &lt;li&gt;If you see the store page and decide not to even try out the free version, can you tell me why? Obviously there's not much I can do about it if you're not currently using animations at all, but if you have other reasons I'd love to hear them. Is it unclear what the plugin actually does or what its advantages are? Do you disagree with any of the assertions I've made about the problems with Mecanim? Do you just not care enough about those problems to try something new? Does my programmer art make your eyes bleed?&lt;/li&gt;
 &lt;li&gt;If you do try it out and decide you don't like it, can you tell me why? Does it not do what you expected? Do you need features only available in the Pro version but are unwilling to spend that much money on something like this? Am I asking too many questions?&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Please check it out and let me know in the &lt;a href="https://forum.unity.com/threads/566452/"&gt;Unity Forums&lt;/a&gt; or by email (&lt;a href="mailto:AnimancerUnityPlugin&amp;#64;gmail.com"&gt;AnimancerUnityPlugin&amp;#64;gmail.com&lt;/a&gt;) if you have any &lt;strong&gt;questions&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Please check it out and let me know in the &lt;a href="https://forum.unity.com/threads/566452/"&gt;Unity Forums&lt;/a&gt; or by email (&lt;a href="mailto:animancer&amp;#64;kybernetik.com.au"&gt;animancer&amp;#64;kybernetik.com.au&lt;/a&gt;) if you have any &lt;strong&gt;questions&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Next up I'm planning to work on an update for my &lt;a href="https://assetstore.unity.com/packages/tools/gui/ultevents-111307"&gt;UltEvents&lt;/a&gt; plugin. My rough plans are:&lt;/p&gt;
 &lt;ul&gt;
@@ -171,7 +181,7 @@
 &lt;/ol&gt;
 &lt;p&gt;That's it. All for free.&lt;/p&gt;
 &lt;p&gt;Previously, I was using my empty Google+ page as my Unity Asset Store publisher website, but now that Google+ is about to be killed off it's time to make a proper portfolio, so I've built this blog with Wyam too.&lt;/p&gt;
-&lt;p&gt;I'm currently working on a large update to my &lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-lite-116516"&gt;Animancer&lt;/a&gt; plugin. Any feedback or suggestions for how I could improve things would be much appreciated. Just email me at &lt;a href="mailto:KybernetikGames&amp;#64;gmail.com"&gt;KybernetikGames&amp;#64;gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I'm currently working on a large update to my &lt;a href="https://assetstore.unity.com/packages/tools/animation/animancer-lite-116516"&gt;Animancer&lt;/a&gt; plugin. Any feedback or suggestions for how I could improve things would be much appreciated. Just email me at &lt;a href="mailto:mail&amp;#64;kybernetik.com.au"&gt;mail&amp;#64;kybernetik.com.au&lt;/a&gt;.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Recently while developing &lt;a href="/kailas-dierk/unity-assets"&gt;Unity Plugins&lt;/a&gt; I decided to upgrade my documentation from simplistic PDFs to proper websites with API documentation generated from my code comments. After looking around a bit I found an awesome tool called &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; which makes the whole process very easy:&lt;/p&gt;</summary>
 	</entry>
